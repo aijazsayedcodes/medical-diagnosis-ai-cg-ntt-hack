@@ -20,6 +20,7 @@ let options = {};
 // Indicate which directory static resources
 // (e.g. stylesheets) should be served from.
 app.use(express.static(path.join(__dirname, "public"), options));
+app.use(express.static(path.join(__dirname, "client"), options));
 // begin listening for requests.
 const port = process.env.PORT || 8080;
 const region = process.env.REGION || "Unknown";
@@ -112,3 +113,7 @@ app.post('/chatBot',  async function(req, res) {
         console.log("failed");
     }
 });
+
+app.get("/home", function (req, res) {
+    res.sendFile(path.join(__dirname + '/client/index.html'));
+})

@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: xxx-large;
+    color: cornflowerblue;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+/* Style buttons */
+.btn {
+    background-color: rgb(30, 255, 255);
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    font-size: 24px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    border-radius: 25px;
+    height: 50px;
+    width: 52px;
+    margin: 10px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+iframe {
+    display: none;
+    position: fixed;
+    right: 100px;
+    bottom: 70px;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.guide {
+    position: fixed;
+    bottom: 37px;
+    right: 110px;
+}
