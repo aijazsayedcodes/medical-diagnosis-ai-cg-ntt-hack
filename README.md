@@ -18,4 +18,5 @@ standards.
 
 3.Run `node server.js`
 
+## Video Link : https://youtu.be/XdFBqoVfcYw
 ## Demo Link: https://cg-ntt-ai-hack-ml-assist.herokuapp.com/home
