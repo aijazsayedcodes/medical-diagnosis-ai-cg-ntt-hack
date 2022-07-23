@@ -4,7 +4,8 @@ Our solution empowers healthcare organizations to leverage AI-powered, compliant
 healthcare experiences at scale. It combines a medical database with natural language capabilities
 to understand clinical terminology and can support your organization's clinical use cases.
 
-## Dataset : https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html
+## Dataset
+https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html
 
 ## Metrics
 
